@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic tac toe game</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="script/script.js"></script>
+</head>
+<body>
+    <section>
+        <div class="Player1box">
+            <p><span id="playername1">Joueur 1</span></p>
+            <p>Symbole:<span id="player1symbole">X</span></p>
+            <p><span id="player1status"></span></p>
+        </div>
+        <div id="gamcontainer">
+            <div id="cellcontainer">
+                <div cellIndex="0" class="cell"></div>
+                <div cellIndex="1" class="cell"></div>
+                <div cellIndex="2" class="cell"></div>
+                <div cellIndex="3" class="cell"></div>
+                <div cellIndex="4" class="cell"></div>
+                <div cellIndex="5" class="cell"></div>
+                <div cellIndex="6" class="cell"></div>
+                <div cellIndex="7" class="cell"></div>
+                <div cellIndex="8" class="cell"></div>
+            </div>
+            
+        </div>
+        <section>
+            <div class="Player2box">
+                <p><span id="playername2">Joueur 2</span></p>
+                <p>Symbole:<span id="player2symbole">O</span></p>
+                <p><span id="player2status"></span></p>
+            </div>
+        </section>
+    </section>
+    <section class="scoreandstatus">
+        <h2 id="statusText"></h2>
+        <button id="restartBtn">Restart</button> 
+    </section>
+    
+</body>
+</html>
